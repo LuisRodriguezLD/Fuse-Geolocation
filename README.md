@@ -1,6 +1,6 @@
-# Fuse-Geolocation
+# Fuse-Geolocation Autocomplete
 
-With a single click you can auto complete your form with the user's address.
+With a single click you can autocomplete your form with the user's address.
 On click you send your coordinates trough Google Maps API and in return you get the data in a JSON.
 
 # Setup
