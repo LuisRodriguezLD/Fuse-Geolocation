@@ -1,0 +1,18 @@
+<App>
+	<StatusBarBackground Dock="Top" />
+	<BottomBarBackground Dock="Bottom" />
+	
+	<JavaScript File="FindMe.js"/>
+
+	<StackPanel>
+		<Basic.TextInput PlaceholderText="Street Number" Value="{StreetNumber}" />
+		<Basic.TextInput PlaceholderText="Street Name" Value="{Street}" />
+		<Basic.TextInput PlaceholderText="City" Value="{City}" />
+		<Basic.TextInput PlaceholderText="State" Value="{State}" />
+		<Basic.TextInput PlaceholderText="Zip Code" Value="{ZipCode}" />
+		<Basic.TextInput PlaceholderText="Country" Value="{Country}" />
+
+		<Basic.Button Clicked="{findMe}" Text="Find Me" />
+
+	</StackPanel>
+</App>
